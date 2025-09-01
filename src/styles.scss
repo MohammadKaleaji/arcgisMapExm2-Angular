@@ -15,3 +15,21 @@ html, body {
   height: 100%;
   margin: 0;
 }
+
+/* This targets the main legend service section */
+.esri-legend__service {
+  max-height: 40vh;        /* or use 15rem, as you prefer */
+  min-height: 5rem;
+  overflow-y: scroll;      /* Always show vertical scrollbar */
+  display: block;
+  background: white;       /* Optional: for better contrast */
+  border-radius: 0.5rem;   /* Optional: for nice rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Optional: subtle shadow */
+}
+
+.custom-legend {
+  max-height: 40vh;
+  min-height: 5rem;
+  overflow-y: scroll;
+  display: block;
+}

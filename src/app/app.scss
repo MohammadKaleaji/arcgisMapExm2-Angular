@@ -20,4 +20,11 @@
     display: block;
     height: 100%;
   }
+
+arcgis-legend {
+  max-height: 40vh;      // or 15rem, as you prefer
+  min-height: 5rem;
+  overflow-y: scroll;
+  display: block;
+}
   
