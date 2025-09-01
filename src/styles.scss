@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+/* 
+  Global styles for Angular + ArcGIS Map Components
+  -------------------------------------------------
+  We import CSS for:
+   1) Calcite components (UI library used in the tutorial)
+   2) ArcGIS JS SDK core theme (widget styling)
+   3) ArcGIS Map Components (base layout/slots)
+*/
+@import "https://js.arcgis.com/calcite-components/3.2.1/calcite.css";
+@import "https://js.arcgis.com/4.33/@arcgis/core/assets/esri/themes/light/main.css";
+@import "https://js.arcgis.com/4.33/map-components/main.css";
+
+/* Ensure the document fills the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}

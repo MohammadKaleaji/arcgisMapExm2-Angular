@@ -1,0 +1,23 @@
+/*
+  App component styles
+  --------------------
+  Ensure the map fills the available space under the Calcite header.
+  The inline styles in the template already enforce sizes, but these
+  provide a second safety net.
+*/
+
+:host {
+    display: block;
+    height: 100vh; /* makes the component itself fill the viewport */
+  }
+  
+  calcite-shell {
+    display: block;
+    height: 100%;
+  }
+  
+  arcgis-map {
+    display: block;
+    height: 100%;
+  }
+  
